@@ -7,10 +7,7 @@
             <username>${secrets.MYUSER}</username>
             <password>${secrets.MYTOKEN}</password>
         </server>
-        <server>
-            <id>gpg.passphrase</id>
-            <passphrase>${env.GPG_PASSPHRASE}</passphrase>
-        </server>
+
     </servers>
     <activeProfiles>
         <activeProfile>github</activeProfile>
@@ -23,7 +20,7 @@
                 <repository>
                     <id>github</id>
                     <name>GitHub OWNER Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/moderkerk/lkzprovider</url>
+                    <url>https://maven.pkg.github.com/moderkerk/xlsxToCsvPlugin</url>
                 </repository>
             </repositories>
         </profile>

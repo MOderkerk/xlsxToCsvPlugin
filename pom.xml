@@ -6,6 +6,7 @@
   <packaging>maven-plugin</packaging>
   <version>1.0.3</version>
   <name>OdinsExcelToCSVFileConverterPlugin</name>
+
   <url>http://www.marcooderkerk.de</url>
   <description>Plugin to generate CSV files from xlsx files</description>
   <issueManagement>
@@ -16,6 +17,7 @@
   <prerequisites>
     <maven>3.6.0</maven>
   </prerequisites>
+
   <scm>
     <url>https://github.com/MOderkerk/xlsxToCsvPlugin</url>
     <developerConnection>scm:git:git:github.com/MOderkerk/xlsxToCsvPlugin</developerConnection>
@@ -96,6 +98,7 @@
   </dependencies>
 
   <build>
+    <finalName>OdinsXlsxToCsvPlugin</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
