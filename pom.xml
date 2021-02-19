@@ -309,14 +309,5 @@
       </plugin>
     </plugins>
   </reporting>
-  <distributionManagement>
-    <site>
-      <id>default</id>
-      <name>XLSX to CSV File Converter</name>
-      <url>
-        scp://marcooderkerk.de
-      </url>
-    </site>
 
-  </distributionManagement>
 </project>
