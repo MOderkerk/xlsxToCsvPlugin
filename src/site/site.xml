@@ -1,0 +1,23 @@
+<project name="Odins XLSX to CSV Converter Plugin">
+    <publishDate position="right"/>
+    <version position="right"/>
+    <body>
+        <links>
+            <item name="Introduction" href="index.html"/>
+            <item name="FAQ" href="https://www.marcooderkerk.de/faq.html"/>
+        </links>
+        <menu name="Overview">
+            <item name="Usage" href="plugin-info.html"/>
+            <item name="Goals" href="plugin-info.html"/>
+            <item name="Dependencies" href="dependencies.html" />
+            <item name="Parameters" href="convertFiles-mojo.html"/>
+            <item name="Reports" href="project-reports.html" />
+            <item name="Javadocs" href="apidocs/index.html"/>
+            <item name="OWASP Dependency Check" href="dependency-check-report.html"/>
+            <item name="Code Smells" href="pmd.html"/>
+            <item name="Code Duplicates" href="cpd.html"/>
+        </menu>
+        <footer><![CDATA[All rights reserved.]]></footer>
+    </body>
+
+</project>
