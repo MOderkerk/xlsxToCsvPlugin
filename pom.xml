@@ -309,5 +309,11 @@
       </plugin>
     </plugins>
   </reporting>
-
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>Githubpages</name>
+      <url>https://maven.pkg.github.com/moderkerk/lkzprovider</url>
+    </repository>
+  </distributionManagement>
 </project>
