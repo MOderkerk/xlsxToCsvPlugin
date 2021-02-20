@@ -4,7 +4,7 @@
   <groupId>de.oderkerk.tools</groupId>
   <artifactId>OdinsExcelToCSVFileConverterPlugin</artifactId>
   <packaging>maven-plugin</packaging>
-  <version>1.0.4</version>
+  <version>1.5.1</version>
   <name>OdinsExcelToCSVFileConverterPlugin</name>
 
   <url>http://www.marcooderkerk.de</url>
@@ -20,8 +20,9 @@
 
   <scm>
     <url>https://github.com/MOderkerk/xlsxToCsvPlugin</url>
-    <developerConnection>scm:git:git:github.com/MOderkerk/xlsxToCsvPlugin</developerConnection>
-    <connection>scm:git:git:github.com/MOderkerk/xlsxToCsvPlugin</connection>
+    <developerConnection>scm:git:github.com/MOderkerk/xlsxToCsvPlugin</developerConnection>
+    <connection>scm:git:github.com/MOderkerk/xlsxToCsvPlugin</connection>
+    <tag>master</tag>
   </scm>
 
   <properties>
