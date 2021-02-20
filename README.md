@@ -1,5 +1,6 @@
 # Odins xlsx to csv File Converter Plugin
-
+[![Maven Package](https://github.com/MOderkerk/xlsxToCsvPlugin/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/MOderkerk/xlsxToCsvPlugin/actions/workflows/maven-publish.yml)
+[![CodeQL](https://github.com/MOderkerk/xlsxToCsvPlugin/actions/workflows/codeanalysis.yml/badge.svg)](https://github.com/MOderkerk/xlsxToCsvPlugin/actions/workflows/codeanalysis.yml)
 ## System Requirements
 
 Component | Version
@@ -15,7 +16,8 @@ With this plugin you can extract testdata from a xlsx file and save each tab of 
 to separate csv files.
 <br>Please note that you should use unique tab names in your xlsx file, because during the convertion existing files will be overridden without warning.
 ## Usage
-You should specify the version in your project's plugin configuration:
+You should specify the version in your project's plugin configuration. Please check for the latest version this site
+https://github.com/MOderkerk?tab=packages&repo_name=xlsxToCsvPlugin
 ```<project>
 ...
 <build>
@@ -23,9 +25,9 @@ You should specify the version in your project's plugin configuration:
  <pluginManagement>
   <plugins>
     <plugin>
-      <groupId>de.oderkerk</groupId>
-      <artifactId>OdinsExcelToCSVFileConverterPlugin</artifactId>
-      <version>1.0.3</version>
+      <groupId>de.oderkerk.tools</groupId>
+      <artifactId>odinsxlstocsvplugin</artifactId>
+      <version>1.5.1</version>
      </plugin>
 ...
   </plugins>
@@ -33,9 +35,9 @@ You should specify the version in your project's plugin configuration:
  <!-- To use the plugin goals in your POM or parent POM -->
  <plugins>
   <plugin>
-    <groupId>de.oderkerk</groupId>
-    <artifactId>OdinsExcelToCSVFileConverterPlugin</artifactId>
-    <version>1.0.3</version>
+    <groupId>de.oderkerk.tools</groupId>
+    <artifactId>odinsxlstocsvplugin</artifactId>
+    <version>1.5.1</version>
     <configuration>
             <inputFilter>
                <filter>*</filter>
@@ -81,6 +83,7 @@ you can set the following configuration to the plugin:
                 </executions>
                 
 ```
+
 
 
 
